@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #030637;
+    color: #be62a1;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
