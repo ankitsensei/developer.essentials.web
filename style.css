@@ -1,19 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700,700italic);
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body {
-    background-color: #030637;
-    color: #be62a1;
+    background-color: #181a1b;
+    color: white;
+    font-family: 'Courier Prime', Courier, monospace;
+}
+#pg1 {
+    background-image: url('imgs/main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 #nav > ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+#nav > ul > li {
+    margin-block-end: 20px;
+    margin-inline: 40px;
+    font-size: 1.4rem;
+    color: #ed5a17;
 }
