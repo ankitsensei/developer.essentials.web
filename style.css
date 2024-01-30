@@ -11,7 +11,7 @@ body {
     font-family: 'Courier Prime', Courier, monospace;
 }
 #pg1 {
-    background-image: url('imgs/main.png');
+    /* background-image: url('imgs/main.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,14 +21,30 @@ body {
     display: flex;
     justify-content: space-between;
 }
+#nav > h1 {
+    background-image: url(imgs/color_wheele.gif);
+    font-size: 2rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-inline: 30px;
+    margin-block: 20px;
+}
 #nav > ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 #nav > ul > li {
-    margin-block-end: 20px;
+    margin-block: 20px;
     margin-inline: 40px;
     font-size: 1.4rem;
     color: #ed5a17;
 }
+#nav > ul > li:hover {
+    margin-block: 20px;
+    margin-inline: 40px;
+    font-size: 1.4rem;
+    color: #ff0000;
+}
+
