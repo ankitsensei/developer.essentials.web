@@ -74,12 +74,18 @@ body {
     opacity: 20%;
 }
 
-.content{
-    margin-inline:400px;
-    margin-block:90px;
+.content {
+    margin-inline: 410px;
+    margin-block: 80px;
 }
 
-.content>h1{
-    font-size: 3rem;
+.content > h1 {
+    margin-block-end: 50px;
+    font-size: 3.4rem;
     font-weight: 100;
+}
+.content > p {
+    font-size: 1.1rem;
+    color: #a4a4a4;
+    text-align:justify;
 }
