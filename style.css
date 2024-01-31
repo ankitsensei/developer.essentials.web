@@ -10,6 +10,24 @@ body {
     color: white;
     font-family: Space Mono, Courier Prime, Courier, monospace;
 }
+#hr1 {
+    background-image: url(imgs/color_wheele.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    height: 4px;
+    /* background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+    ); */
+    /* margin: 20px 0; */
+}
 #pg1 {
     /* background-image: url('imgs/main.png'); */
     background-size: cover;
@@ -87,5 +105,5 @@ body {
 .content > p {
     font-size: 1.1rem;
     color: #a4a4a4;
-    text-align:justify;
+    text-align: justify;
 }
