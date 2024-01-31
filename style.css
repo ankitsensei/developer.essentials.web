@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700,700italic);
-
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body {
-    background-color: #181a1b;
+    background-color: #111111;
     color: white;
-    font-family: 'Courier Prime', Courier, monospace;
+    font-family: Space Mono, Courier Prime, Courier, monospace;
 }
 #pg1 {
     /* background-image: url('imgs/main.png'); */
@@ -21,30 +21,65 @@ body {
     display: flex;
     justify-content: space-between;
 }
-#nav > h1 {
+#logo {
+    display: flex;
+}
+#logo > img {
+    margin-inline-start: 20px;
+    margin-block: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+#logo > h1 {
     background-image: url(imgs/color_wheele.gif);
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    margin-inline: 30px;
-    margin-block: 20px;
+    margin-inline-start: 10px;
+    margin-block: 10px;
 }
 #nav > ul {
+    margin-inline: 20px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 #nav > ul > li {
-    margin-block: 20px;
-    margin-inline: 40px;
-    font-size: 1.4rem;
-    color: #ed5a17;
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+    margin-inline: 4px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 #nav > ul > li:hover {
-    margin-block: 20px;
-    margin-inline: 40px;
-    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+    margin-inline: 4px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+}
+#pg1 > hr {
     color: #ff0000;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 20%;
 }
 
+.content{
+    margin-inline:400px;
+    margin-block:90px;
+}
+
+.content>h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
