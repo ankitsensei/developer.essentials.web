@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" ico">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/icons/favicon.ico" ico">
     <title>developer.essentials</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -37,9 +37,47 @@
             <p>
                 I am passionate about open-source and enjoy exploring and learning from open-sourced repositories. I
                 also contribute to them whenever I can. Additionally, I prefer to keep my own projects open-sourced.
-            </p>
+            </p><br>
+            <section id="socials">
+                <div id="apps">
+                    <img src="imgs/icons/instagram.png" alt="insta">
+                    <a href="https://github.com/ankitsensei" target="_blank">
+                        <img id="github" src="imgs/icons/github-480.png" alt="github">
+                    </a>
+                    <a href="https://twitter.com/blackcodeeboy" target="_blank">
+                        <img id="twitter" src="imgs/icons/logo-white.png" alt="">
+                    </a>
+                </div>
+
+                <div id="links">
+                    <div class="copyable-text" onclick="copyText()">Email me</div>
+                    <div>
+                        <a href="">my cv</a>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </div>
+    <script>
+        function copyText ()
+        {
+            var textElement = document.querySelector( '.copyable-text' )
+            var range = document.createRange()
+            range.selectNode( textElement )
+            window.getSelection().removeAllRanges()
+            window.getSelection().addRange( range )
+
+            try {
+                document.execCommand( 'copy' )
+                alert( 'main.ankitbhagat@gmail.com' )
+            } catch ( err ) {
+                console.error( 'Unable to copy text', err )
+            }
+
+            window.getSelection().removeAllRanges()
+        }
+    </script>
 </body>
 
 </html>
