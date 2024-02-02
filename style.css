@@ -26,7 +26,6 @@ body {
         indigo,
         violet
     ); */
-    /* margin: 20px 0; */
 }
 #pg1 {
     /* background-image: url('imgs/main.png'); */
@@ -75,15 +74,10 @@ body {
     border-radius: 5px;
 }
 #nav > ul > li:hover {
-    display: flex;
-    align-items: center;
-    margin-block: 10px;
-    margin-inline: 4px;
-    padding-inline: 20px;
-    padding-block: 5px;
-    font-size: 1rem;
-    border-radius: 5px;
     background-color: #2e2e2e;
+}
+#nav > ul > li:active {
+    background-color: #858585;
 }
 #pg1 > hr {
     color: #ff0000;
@@ -111,27 +105,15 @@ body {
     display: flex;
     align-items: center;
     gap: 90px;
-    /* justify-content: space-around; */
-}
-#apps {
-    /* gap:20px; */
-}
-#apps > img {
-    height: 30px;
-    width: auto;
-    filter: invert(1);
 }
 
-#github {
+#apps > a > img {
     height: 30px;
     width: auto;
     filter: invert(1);
     margin-inline: 15px;
 }
-#twitter {
-    height: 25px;
-    width: auto;
-}
+
 #links {
     display: flex;
     gap: 15px;
@@ -146,4 +128,7 @@ body {
 #links > div > a {
     color: white;
     text-decoration: none;
+}
+.copyable-text:hover {
+    cursor: grab;
 }
