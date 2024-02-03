@@ -88,51 +88,13 @@ body {
     margin-right: auto;
     opacity: 20%;
 }
-
 .content {
     margin-inline: 410px;
     margin-block: 80px;
 }
 
-.content > h1 {
-    margin-block-end: 50px;
-    font-size: 3.4rem;
-    font-weight: 100;
-}
 .content > p {
     font-size: 1.1rem;
     color: #a4a4a4;
     text-align: justify;
-}
-#socials {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    gap: 90px;
-}
-
-#apps > a > img {
-    height: 30px;
-    width: auto;
-    filter: invert(1);
-    margin-inline-end: 15px;
-}
-
-#links {
-    display: flex;
-    gap: 15px;
-}
-#links > div {
-    background-color: #4b4b4b;
-    padding-inline: 20px;
-    padding-block: 5px;
-    border-radius: 20px;
-    border: 0.1px solid white;
-}
-#links > div > a {
-    color: white;
-    text-decoration: none;
-}
-.copyable-text:hover {
-    cursor: grab;
 }
