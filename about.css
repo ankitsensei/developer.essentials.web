@@ -39,14 +39,14 @@ body {
 #logo {
     display: flex;
 }
-#logo > img {
+#logo > a > img {
     margin-inline-start: 20px;
     margin-block: 10px;
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
-#logo > h1 {
+#logo_name {
     background-image: url(imgs/color_wheele.gif);
     font-size: 1.5rem;
     background-clip: text;
