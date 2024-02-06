@@ -35,6 +35,7 @@ body {
 #nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #logo {
     display: flex;
@@ -109,6 +110,7 @@ body {
     display: flex;
     align-items: center;
     gap: 90px;
+    flex-wrap: wrap;
 }
 
 #apps > a > img {
@@ -135,4 +137,23 @@ body {
 }
 .copyable-text:hover {
     cursor: grab;
+}
+
+/* media query for phones */
+@media only screen and (max-width: 767px) {
+    #nav{
+        /* justify-content: space-evenly; */
+    }
+    #nav > ul  {
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    .content {
+        margin: 20px;
+        padding: 20px;
+    }
+    .content > h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
